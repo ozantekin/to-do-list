@@ -20,14 +20,20 @@
   },
   "homepage": "https://github.com/ozantekin/heroku#readme",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
     "express": "^4.18.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
+    "@redux-devtools/core": "^3.13.1",
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.2",
     "html-loader": "^4.2.0",
