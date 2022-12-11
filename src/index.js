@@ -1,9 +1,11 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
-class App extends React.Component {
-  render() {
-    return <div className='text-red-500'>Hello World !</div>
-  }
-}
-ReactDOM.render(<App />, document.getElementById('root'))
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './styles/index.css'
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
