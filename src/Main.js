@@ -1,3 +1,3 @@
-export default function App() {
+export default function Main() {
   return <div className='text-red-500'>Hello World !</div>
 }
