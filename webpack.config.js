@@ -6,9 +6,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        },
+        use: ['babel-loader'],
       },
       {
         test: /\.html$/,
@@ -30,4 +28,7 @@ module.exports = {
       filename: './index.html',
     }),
   ],
+  resolve: {
+    extensions: ['*', '.js', '.jsx'],
+  },
 }
